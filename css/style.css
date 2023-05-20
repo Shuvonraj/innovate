@@ -1,0 +1,851 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+/* * nav part start */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+}
+
+.navbar-nav .nav-item:first-child .nav-link {
+    padding-left: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    transition: all linear 0.5s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #1BBF00;
+}
+
+.navbar {
+    background: rgba(22, 12, 109, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+.nav-btn button {
+    background: #1BBF00;
+    border-radius: 100px;
+    align-items: center;
+    padding: 14px 28px;
+    gap: 10px;
+    text-transform: capitalize;
+    border: 1px solid #1BBF00;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* nav part end */
+
+
+
+/* banner part start */
+#banner {
+    background: url(../images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 248px;
+    padding-bottom: 254px;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+#banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(106, 98, 197, 0.609);
+    z-index: -1;
+}
+
+.banner-details h1 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 84px;
+    text-transform: capitalize;
+    color: #FAFAFE;
+}
+
+.banner-details p {
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #E6E5F3;
+}
+
+.banner-btn .left-btn button {
+    padding: 20px 40px;
+    gap: 10px;
+    background: #1BBF00;
+    border-radius: 100px;
+    border: 2px solid #1BBF00;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.banner-btn .right-btn button {
+    padding: 20px 40px;
+    gap: 10px;
+    background: #19bf0000;
+    border-radius: 100px;
+    border: 2px solid #1BBF00;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    transition: all linear 0.5s;
+}
+
+.banner-btn .right-btn button:hover {
+    background: #1BBF00;
+    ;
+}
+
+.banner-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* banner part end */
+
+
+/* count part start */
+#count {
+    padding: 283px;
+    background: #F9F9FB;
+    position: relative;
+}
+
+#count .count-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#count .line {
+    border-right: 2px solid #4F585F;
+
+}
+
+#count .col1 h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 68px;
+    color: #1BBF00;
+
+}
+
+#count .col1 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #141135;
+}
+
+/* count part end */
+
+
+/* WhyChooseUs part start */
+#WhyChooseUs {
+    background: #FDFDFD;
+    padding: 100px 0 91px;
+    position: relative;
+    z-index: 1;
+}
+
+#WhyChooseUs .WhyChooseUs-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#WhyChooseUs .icon {
+    width: 25px;
+    height: 25px;
+    background: #1BBF00;
+    border-radius: 100%;
+    position: relative;
+}
+
+#WhyChooseUs .icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 13px;
+    background: #CBC8F0;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+#WhyChooseUs .WhyChooseUs-left p {
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    margin-left: 38px;
+    width: 319px;
+    transition: all linear 0.3s;
+}
+
+#WhyChooseUs .WhyChooseUs-left {
+    transition: all linear 0.5s;
+}
+
+#WhyChooseUs .WhyChooseUs-left:hover {
+    width: 568px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    padding: 42px 0px 42px 0px;
+}
+
+#WhyChooseUs .WhyChooseUs-right h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    color: #141135;
+}
+
+#WhyChooseUs .WhyChooseUs-right p {
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    width: 393px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #726E9E;
+}
+
+#WhyChooseUs .WhyChooseUs-right button {
+    width: 189px;
+    height: 64px;
+    background: #1BBF00;
+    border-radius: 100px;
+    color: aliceblue;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    border: 1px solid #1BBF00;
+}
+
+/* WhyChooseUs part end  */
+
+
+
+/* WhatWeDo part start */
+#WhatWeDo {
+    background: #F6F5FF;
+    padding: 100px 374px;
+
+}
+
+
+#WhatWeDo .part1 h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    color: #141135;
+}
+
+#WhatWeDo .part1 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: 0.5px;
+    width: 350px;
+}
+
+#WhatWeDo .part1 button {
+    background: #1BBF00;
+    border-radius: 100px;
+    width: 189px;
+    height: 64px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    border: 1px solid #1BBF00;
+}
+
+#WhatWeDo .part2 {
+    padding: 48px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.1);
+    border-radius: 20px;
+    transition: all linear 0.6s;
+}
+
+#WhatWeDo .part2:hover {
+    background: #6B62C5;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.1);
+    border-radius: 20px;
+    text-decoration-color: #FAFAFE;
+    ;
+}
+
+#WhatWeDo .part2 h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 20px;
+    transition: all linear 0.5s;
+}
+
+#WhatWeDo .part2:hover h1 {
+    color: #FAFAFE;
+}
+
+#WhatWeDo .part2 p {
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #726E9E;
+    width: 257px;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    transition: all linear 0.5s;
+}
+
+#WhatWeDo .part2:hover p {
+    color: #FAFAFE;
+}
+
+#WhatWeDo .part2 a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #141135;
+    position: relative;
+    padding: 10px 8px;
+    border-radius: 100px;
+    display: inline-block;
+    overflow: hidden;
+    transition: all linear 0.5s;
+}
+
+#WhatWeDo .part2:hover a {
+    color: #FAFAFE;
+
+}
+
+#WhatWeDo .part2 a:after {
+    content: '';
+    position: absolute;
+    left: 70px;
+    top: 0;
+    background: rgba(25, 191, 0, 0.274);
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 100px 100px 0px;
+    transition: all linear 0.5s;
+}
+
+#WhatWeDo .part2:hover a:after {
+    content: '';
+    position: absolute;
+    left: 70px;
+    top: 0;
+    background: rgba(254, 255, 254, 0.274);
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 100px 100px 0px;
+    transition: all linear 0.5s;
+}
+
+#WhatWeDo .part2 a:hover::after {
+    left: 0%;
+}
+
+/* WhatWeDo part end*/
+
+
+
+
+/* WeCreateRealImact Part Start */
+#WeCreateRealImact {
+    background: #FFFFFF;
+    padding: 91px 0px 100px 0px;
+    position: relative;
+}
+
+#WeCreateRealImact .WeCreateRealImact-banner {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+#WeCreateRealImact .WeCreateRealImact-head {
+    margin: 0 auto;
+
+}
+
+#WeCreateRealImact .WeCreateRealImact-head h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+}
+
+#WeCreateRealImact .WeCreateRealImact-head p {
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    width: 558px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+#WeCreateRealImact .WeCreateRealImact-left .img-text-main img {
+    width: 63px;
+    height: 63px;
+}
+
+#WeCreateRealImact .WeCreateRealImact-left .img-text-main .img-text h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #141135;
+    margin-left: 35px;
+}
+
+#WeCreateRealImact .WeCreateRealImact-left p {
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    width: 343px;
+    margin-left: 35px;
+}
+
+/* WeCreateRealImact Part End */
+
+#ChooseTheRightPlan {
+    padding: 100px;
+    background: #F9F9FB;
+}
+
+#ChooseTheRightPlan .basic {
+    margin-top: 100px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.15);
+    height: 561px;
+    width: 370px;
+    transition: all linear 0.5s;
+}
+
+#ChooseTheRightPlan h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+}
+
+#ChooseTheRightPlan .basic:hover {
+    background: #6001D3;
+
+}
+
+#ChooseTheRightPlan .basic h1 {
+    padding-top: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 26px;
+    transition: all linear 0.5s;
+}
+
+#ChooseTheRightPlan .basic:hover h1 {
+    color: #F9F9FB;
+}
+
+#ChooseTheRightPlan .basic p {
+    height: 243px;
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #726E9E;
+    width: 252px;
+    margin: 0 auto;
+    margin-top: 12px;
+    transition: all linear 0.5s;
+}
+
+#ChooseTheRightPlan .basic:hover p {
+    color: #F9F9FB;
+}
+
+#ChooseTheRightPlan .basic h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: #1BBF00;
+    margin-top: 20px;
+    position: relative;
+}
+
+#testimonial {
+    padding: 100px;
+    background: #F8F8FF;
+    position: relative;
+}
+
+#testimonial .right-icon {
+    position: absolute;
+    right: 12%;
+    top: 60%;
+    color: #1BBF00;
+    height: 64px;
+    width: 64px;
+    font-size: 64px;
+    z-index: 1;
+}
+
+#testimonial .left-icon {
+    position: absolute;
+    left: 12%;
+    top: 60%;
+    color: #1BBF00;
+    height: 64px;
+    width: 64px;
+    font-size: 64px;
+    z-index: 1;
+}
+
+
+
+#testimonial h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+}
+
+#testimonial .next-icon .slide {
+    background: #FFFFFF;
+    box-shadow: -15px 30px 50px rgba(171, 175, 199, 0.301961);
+    border-radius: 20px;
+    padding: 120px 0px 56px 0px;
+    margin: auto;
+    margin-top: 152px;
+    position: relative;
+}
+
+
+#testimonial .slide img {
+    position: absolute;
+    top: -20%;
+    right: 50%;
+    transform: translate(45%, 0%);
+
+
+}
+
+#testimonial .slide p {
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #726E9E;
+    width: 800px;
+    margin: auto;
+}
+
+#testimonial .slide h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #221A2C;
+    margin-top: 48px;
+}
+
+#testimonial .slide h6 {
+    font-family: 'Paprika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #726E9E;
+    margin-top: 4px;
+}
+
+#Blog {
+    background: #F9F9FB;
+    padding: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+#Blog img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#Blog h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    color: #030314
+}
+
+#Blog .post .img {
+    width: 379px;
+    height: 221px;
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+
+#Blog .post {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+#Blog .post .text-part {
+    margin-left: 80px;
+}
+
+#Blog .post .text-part .head-tag {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+#Blog .post .text-part .head-tag h6 {
+    margin-right: 35px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #726E9E;
+    transition: all linear 0.5s;
+}
+
+#Blog .post .text-part .head-tag h6:first-child {
+    color: #1BBF00;
+}
+
+#Blog .post .text-part .head-tag h6:hover {
+    color: #1BBF00;
+}
+
+#Blog .post .text-part h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    color: #141135;
+}
+
+#Blog .post .text-part a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #141135;
+    position: relative;
+    padding: 10px 8px;
+    border-radius: 100px;
+    display: inline-block;
+    overflow: hidden;
+    transition: all linear 0.5s;
+}
+
+#Blog .post .text-part a:after {
+    content: '';
+    position: absolute;
+    left: 70px;
+    top: 0;
+    background: rgba(25, 191, 0, 0.274);
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 100px 100px 0px;
+    transition: all linear 0.3s;
+}
+
+#Blog .post .text-part a:hover::after {
+    left: 0%;
+}
+
+#footer {
+    background: #48409C;
+    padding: 140px 0 57px 0;
+}
+
+#footer .left-side p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    opacity: 0.9;
+    margin-top: 44px;
+    width: 449px;
+}
+
+#footer .left-side h5 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    opacity: 0.9;
+    margin-top: 189px;
+}
+
+#footer .right-side .Features h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin-bottom: 48px;
+}
+
+#footer .right-side .Features h5 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+
+
+#footer .right-side {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 93px;
+}
+
+#footer .policy {
+    display: flex;
+    gap: 60px;
+    justify-content: flex-end;
+    margin-top: 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    opacity: 0.9;
+}
